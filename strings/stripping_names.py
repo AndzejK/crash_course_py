@@ -1,0 +1,10 @@
+names=["   Albert\n","\tThomas\t","   Micheal\n\t "]
+print(f"original:{names[0]}")
+name_lstrip=names[0].lstrip()
+print(f"modified:{name_lstrip}")
+print(f"original:{names[1]}")
+name_rstrip=names[1].rstrip()
+print(f"modified:{name_rstrip}")
+name_strip=names[2].strip()
+print(f"original:{names[2]}")
+print(f"modified:{name_strip}")
