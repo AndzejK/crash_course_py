@@ -1,0 +1,2 @@
+I'm following this roadmap for python:
+https://roadmap.sh/python
