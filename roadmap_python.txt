@@ -1,2 +1,5 @@
 I'm following this roadmap for python:
 https://roadmap.sh/python
+Useful links:
+https://pep8.org/ - the guideline how to write a more readable code for python and for programmers :) 
+https://www.reddit.com/r/learnpython/comments/ctkypf/im_100_self_taught_landed_my_first_job_my/ 
