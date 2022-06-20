@@ -5,11 +5,11 @@ for number in range(1,11):
     numbers.append(number)
 
 for number in numbers:
-    if number==1:
+    if number == 1:
         print(f"{number}st")
-    elif number==2:
+    elif number == 2:
         print(f"{number}nd")
-    elif number==3:
+    elif number == 3:
         print(f"{number}rd")
     else:
         print(f"{number}th")
