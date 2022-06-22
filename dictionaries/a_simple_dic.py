@@ -2,7 +2,10 @@
 # Or DICT is a collection of key-value pairs
 
 # a game that is featuring alines
-alien_0={"colour": "green", "points":5} 
+alien_0={
+    "colour": "green", 
+    "points":5,
+    } 
 
 #gaining access to the values in dictionary
 print(alien_0["colour"])
@@ -38,3 +41,13 @@ else:
 #the new position is the old position plus the increment
 alien_0["x_position"]=alien_0["x_position"]+x_increment
 print(f"New alien's x-position: {alien_0['x_position']}")
+
+#Upgrate the Alien's speed
+alien_0["speed"] = "super fast"
+#Displaying a new alien's x-position:
+print(f"New x-position: {alien_0['x_position']}")
+#the result would won't change since if-else statment ran before the change :( I put it into function and call that fucntion
+
+#deleting a key/value pair, no points system anymore
+del alien_0["points"]
+print(alien_0)
