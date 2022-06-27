@@ -21,3 +21,13 @@ for key in fav_numbers:
 for key,value in fav_numbers.items():
     print(f"\nKey: {key}")
     print(f"Value: {value}")
+
+# adding a new array just with the name in order to find their favourite numbers
+friends=["Andrew","Mirka"]
+# print each name
+for name in friends:
+    print(f"Hey {name}")
+# let's find out if I know their/friends favourite number
+    if name in friends:
+        fav_number=fav_numbers[name]
+        print(f"\tI see that your favourite number is {fav_number}")
