@@ -11,8 +11,7 @@ favourite_places = {
     },
     "ahmed":{
         "place_1":"philippines",
-        "place_2":"croatia",
-        "place_3":"new york", 
+        "place_2":"croatia", 
     },
 }
 #get each name and its favourite places
