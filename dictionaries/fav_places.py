@@ -1,3 +1,4 @@
+import math
 favourite_places = {
     "andrey":{
         "place_1":"sydney",
@@ -27,3 +28,24 @@ for name,places in favourite_places.items():
             print(f"\t\t{place.title()};")
             start+=1
     print("\n")
+
+set_of_numbers=range(50)
+list_of_number=[]
+for number in set_of_numbers:
+    list_of_number.append(number)
+
+multiple_numbers=[]
+for number_in_the_list in list_of_number:
+    if number_in_the_list%3 == 0:
+        multiple_numbers.append(number_in_the_list)
+    elif number_in_the_list%5 == 0:
+        multiple_numbers.append(number_in_the_list)
+print(multiple_numbers)
+sum_=0
+for sum in multiple_numbers:
+    sum_+=sum
+print(sum_)
+
+number_xxx=range(3)
+output={*number_xxx}
+print(output)
