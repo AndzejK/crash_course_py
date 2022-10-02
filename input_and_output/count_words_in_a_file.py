@@ -1,4 +1,10 @@
-file_name="txt_a_rand_number_'words.txt"
+file_name="Pride_and_Prejudice.txt"
+'''
+Pride_and_Prejudice.txt
+pi_digits.txt
+test.txt
+A_Room_with_a_View.txt
+'''
 
 # Adding in a TRY block to make secure and more readable app for an end-user
 try:
