@@ -1,0 +1,671 @@
+Last login: Wed Jun 29 18:21:08 on ttys000
+rock@Andzejs-MacBook-Air ~ % brew install qview
+Running `brew update --preinstall`...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:cf9137b1da5568d4949f71161a69b101f60ddb765e94d2b423c9801b67a1cb43
+######################################################################### 100.0%
+==> Pouring portable-ruby-2.6.8_1.arm64_big_sur.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+aarch64-elf-binutils       http-prompt                pg_cron
+aarch64-elf-gcc            httpyac                    pg_partman
+acl                        hut                        pget
+adamstark-audiofile        hwatch                     phrase-cli
+age-plugin-yubikey         ifacemaker                 pixie
+alpscore                   ijq                        poac
+ansible-language-server    imposm3                    podman-compose
+arxiv_latex_cleaner        inih                       postgraphile
+ascii2binary               inotify-tools              powerman-dockerize
+astro                      install-peerdeps           primecount
+asyncapi                   iptables                   procyon-decompiler
+atlas                      jackett                    qbe
+autocannon                 jaq                        quick-lint-js
+aws-auth                   jdtls                      quran
+aws-nuke                   jless                      redis@6.2
+aztfy                      kdoctor                    release-it
+bartib                     kics                       req
+bk                         kmod                       reshape
+bkt                        koka                       rospo
+boost@1.76                 kopia                      rslint
+bore-cli                   kt-connect                 ruby@3.0
+brev                       kubekey                    rure
+bvm                        kubescape                  sdl12-compat
+canfigger                  kyverno                    sdl2_sound
+cfonts                     leapp-cli                  sftpgo
+checkmake                  levant                     shadowsocks-rust
+cloudflare-quiche          lexicon                    sophus
+cloudflared                libabw                     spago
+compiledb                  libadwaita                 spidermonkey@78
+cpi                        libapplewm                 spirv-headers
+criterion                  libcython                  sqls
+csview                     libmarpa                   sse2neon
+cxgo                       libnetfilter_conntrack     sshs
+czg                        libnftnl                   stanc3
+dagger                     libnl                      stencil
+dbml-cli                   libobjc2                   stylish-haskell
+ddcutil                    libpython-tabulate         swtpm
+ddh                        librasterlite2             synergy-core
+difftastic                 libtpms                    tagref
+doggo                      libxcrypt                  tarlz
+dotdrop                    libxcvt                    teller
+dpp                        libxfont2                  terminalimageviewer
+dsq                        linode-cli                 terraform-lsp
+dtrx                       linux-headers@5.16         terramate
+dump1090-mutability        litani                     testkube
+dumpling                   livekit                    textidote
+dynaconf                   llvm@13                    tfschema
+easeprobe                  lndir                      tidy-viewer
+ecflow-ui                  localtunnel                tinysearch
+eget                       ltex-ls                    toxcore
+elvis                      mabel                      tradcpp
+epinio                     maclaunch                  tremor-runtime
+erlang@24                  mapproxy                   trivy
+esphome                    mariadb@10.6               trzsz
+evernote-backup            mariadb@10.7               trzsz-go
+fastnetmon                 markdown-toc               ttmath
+fb303                      mbt                        tuc
+fclones                    mbw                        tygo
+fdroidcl                   mcap                       ugit
+ffmpeg@4                   melody                     unisonlang
+flix                       micro_inetd                usbutils
+flock                      minimap2                   uutils-findutils
+flyctl                     mkfontscale                vcluster
+fortran-language-server    mongodb-atlas-cli          vectorscan
+fourmolu                   monika                     vermin
+freebayes                  mu-repo                    virt-manager
+gcc@12                     nali                       vkectl
+gemgen                     naml                       vsce
+ghcup                      nb                         wasm-tools
+gi-docgen                  nftables                   wb32-dfu-updater_cli
+git-workspace              nickel                     webkitgtk
+glibc@2.13                 numdiff                    webp-pixbuf-loader
+glider                     nvchecker                  websocketpp
+gnustep-base               oak                        weggli
+go@1.17                    observerward               werf
+goctl                      octosql                    wordle
+gokart                     odo-dev                    xcode-kotlin
+gold                       oh-my-posh                 xidel
+gops                       ohdear-cli                 xkbcomp
+groestlcoin                opencl-headers             xkcd
+gst-plugins-rs             opendht                    xpipe
+hatch                      openjdk@17                 yamale
+helmify                    opentelemetry-cpp          yorkie
+highs                      pacmc                      zx
+==> New Casks
+abbyy-finereader-pdf
+accord
+aethersx2
+alpha
+amazon-luna
+anypointstudio
+app-fair
+archy
+arctype
+audiorelay
+audiostellar
+avifquicklook
+banana-cake-pop
+betterandbetter
+betterdisplay
+bettermouse
+bike
+bili-downloader
+bilibili-official
+cardpresso
+cleaneronepro
+cnkiexpress
+contour
+dcp-o-matic-combiner
+dcp-o-matic-disk-writer
+dcp-o-matic-playlist-editor
+descript
+detail
+devtoys
+dixa
+dmg-canvas
+ecamm-live
+electrum-grs
+elephicon
+eliot
+espanso
+ferdium
+fertigt-slate
+fly-key
+flycast
+fmail2
+free-gpgmail
+gama
+gama-jdk
+gcc-aarch64-embedded
+gdevelop
+groestlcoin-core
+hackolade
+hdfview
+hepta
+heroic
+hostsx
+imagex
+inkstitch
+input-source-pro
+iptvnator
+irpf2022
+jetbrains-gateway
+jpc-qlcolorcode
+jquake
+kdenlive
+keysafe
+kindavim
+ktalk
+lapce
+libcblite
+libcblite-community
+localxpose
+macast
+manila
+manymc
+manyverse
+medis
+mega
+mellel
+metadatics
+miaoyan
+miln-movie-splitter
+miniwol
+mixed-in-key-live
+mp3tag
+music-bar
+mx-power-gadget
+mysteriumvpn
+neovide
+nitro-pdf-pro
+nozbe-personal
+nym-wallet
+openshift-client
+orangedrangon-android-messages
+orion
+oso-cloud
+osp-tracker
+osu
+oxwu
+paddle-easydl
+panwriter
+paragon-camptune
+phpwebstudy
+pingnoo
+playdate-simulator
+plex-htpc
+plus42-binary
+plus42-decimal
+podman-desktop
+poker-copilot
+polymc
+polypane
+postman-agent
+protokol
+prowlarr
+psst
+quarto
+quit-all
+readyapi
+roam-research
+rockboxutility
+roonbridge
+rustdesk
+rwts-pdfwriter
+simplemind
+sol
+sonic-lineup
+sonixd
+steam-plus-plus
+supernotes
+swiftcord
+tailscale
+thinlinc-client
+threema-work
+ti-smartview-ce-for-the-ti-84-plus-family
+tmpdisk
+todesk
+tomatobar
+tqsl
+trex
+trivial
+twitch-studio
+ui
+ujam
+unicopedia-plus
+universal-android-debloater
+vertcoin-core
+vieb
+vivid
+warp
+weektodo
+windterm
+wow
+wpsoffice-cn
+write
+xemu
+xiv-on-mac
+yandex-music-unofficial
+yattee
+
+You have 7 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+
+==> Downloading https://github.com/jurplel/qView/releases/download/5.0/qView-5.0
+==> Downloading from https://objects.githubusercontent.com/github-production-rel
+######################################################################## 100.0%
+==> Installing Cask qview
+==> Moving App 'qView.app' to '/Applications/qView.app'
+🍺  qview was successfully installed!
+rock@Andzejs-MacBook-Air ~ % python3 get-pip.py
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file 'get-pip.py': [Errno 2] No such file or directory
+rock@Andzejs-MacBook-Air ~ % chmod 400 <keyname>.pem
+zsh: no such file or directory: keyname
+rock@Andzejs-MacBook-Air ~ % pwd                    
+/Users/rock
+rock@Andzejs-MacBook-Air ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	gitHub
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1 | xargs -l {} mv {} /Volumes/KOBOeReader/books 
+xargs: illegal option -- l
+usage: xargs [-0opt] [-E eofstr] [-I replstr [-R replacements] [-S replsize]]
+             [-J replstr] [-L number] [-n number [-x]] [-P maxprocs]
+             [-s size] [utility [argument ...]]
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1 | xargs {} mv {} /Volumes/KOBOeReader/books 
+xargs: {}: No such file or directory
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1
+Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1 | xargs -i {} mv {} /Volumes/KOBOeReader/books 
+xargs: illegal option -- i
+usage: xargs [-0opt] [-E eofstr] [-I replstr [-R replacements] [-S replsize]]
+             [-J replstr] [-L number] [-n number [-x]] [-P maxprocs]
+             [-s size] [utility [argument ...]]
+rock@Andzejs-MacBook-Air ~ % help xargs
+zsh: command not found: help
+rock@Andzejs-MacBook-Air ~ % xargs -help
+xargs: illegal option -- h
+usage: xargs [-0opt] [-E eofstr] [-I replstr [-R replacements] [-S replsize]]
+             [-J replstr] [-L number] [-n number [-x]] [-P maxprocs]
+             [-s size] [utility [argument ...]]
+rock@Andzejs-MacBook-Air ~ % xargs -h   
+xargs: illegal option -- h
+usage: xargs [-0opt] [-E eofstr] [-I replstr [-R replacements] [-S replsize]]
+             [-J replstr] [-L number] [-n number [-x]] [-P maxprocs]
+             [-s size] [utility [argument ...]]
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1 | xargs -I {} mv {} /Volumes/KOBOeReader/books
+mv: rename Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub to /Volumes/KOBOeReader/books/Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub: No such file or directory
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1 | xargs -I '{}' mv '{}' /Volumes/KOBOeReader/books
+mv: rename Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub to /Volumes/KOBOeReader/books/Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub: No such file or directory
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1 
+Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1 | xargs -I '{}' mv '{}' /Volumes/KOBOeReader/books/
+mv: rename Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub to /Volumes/KOBOeReader/books/Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub: No such file or directory
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads/ | head -1 | xargs -I '{}' mv '{}' /Volumes/KOBOeReader/books/
+mv: rename Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub to /Volumes/KOBOeReader/books/Michael A. Singer - The untethered soul_ the journey beyond yourself (2007, New Harbinger Publications _ Noetic Books) - libgen.lc.epub: No such file or directory
+rock@Andzejs-MacBook-Air ~ % mv Downloads/Michael\ A.\ Singer\ -\ The\ untethered\ soul_\ the\ journey\ beyond\ yourself\ \(2007,\ New\ Harbinger\ Publications\ _\ Noetic\ Books\)\ -\ libgen.lc.epub /Volumes/KOBOeReader/books 
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1 
+FreshandFit_ATate.mp4
+rock@Andzejs-MacBook-Air ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+  [Restored 2022-08-29 07:31:15 PM]
+Last login: Mon Aug 29 19:31:12 on console
+Restored session: Mon Aug 29 19:30:33 EEST 2022
+rock@Andzejs-MacBook-Air ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	gitHub
+rock@Andzejs-MacBook-Air ~ % ls -t | head -1 | xargs -I {} mv {} /Volumes/KOBOeReader/books/  
+cp: fchflags: /Volumes/KOBOeReader/books/Downloads/262544103_1347291305725712_8573683032975413201_n.jpg: Invalid argument
+^[[A^[[A^[[B^[[B^[[A^[[A^[[A^[[D
+
+^C
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads | head -1
+David Goggins - Can’t Hurt Me_ Master Your Mind and Defy the Odds (2018, Lioncrest Publishing) - libgen.lc.epub
+rock@Andzejs-MacBook-Air ~ % ls Downloads -t | head -1 | xargs -I {} mv {} /Volumes/KOBOeReader/books/ 
+ls: -t: No such file or directory
+mv: rename Downloads: to /Volumes/KOBOeReader/books/Downloads:: No such file or directory
+rock@Andzejs-MacBook-Air ~ % ls -t Downloads/ | head -1 | xargs -I {} mv {} /Volumes/KOBOeReader/books/
+mv: rename David Goggins - Can’t Hurt Me_ Master Your Mind and Defy the Odds (2018, Lioncrest Publishing) - libgen.lc.epub to /Volumes/KOBOeReader/books/David Goggins - Can’t Hurt Me_ Master Your Mind and Defy the Odds (2018, Lioncrest Publishing) - libgen.lc.epub: No such file or directory
+rock@Andzejs-MacBook-Air ~ % cd Downloads 
+rock@Andzejs-MacBook-Air Downloads % ls -t | head -1 | xargs -I {} mv {} /Volumes/KOBOeReader/books/
+rock@Andzejs-MacBook-Air Downloads % ls -t Downloads | head -1                                                 
+ls: Downloads: No such file or directory
+rock@Andzejs-MacBook-Air Downloads % ls -t /Volumes/KOBOeReader/books | head -1 
+Downloads
+rock@Andzejs-MacBook-Air Downloads % ls
+01_REVEL_SYSTEMS_EmployeeData_v2.0.xlsx
+1st INTERVIEW FORM_AK.docx.pdf
+207786_Andzej_Krupoves_ICTTEN611_4tasks_Attempt_1.pdf
+241312082_856566155252862_5049835193425058193_n.jpg
+260661436_1049564868950805_5049815180757539130_n.jpg
+261191372_448762576783196_1816159896300056366_n.jpg
+262544103_1347291305725712_8573683032975413201_n (1).jpg
+262544103_1347291305725712_8573683032975413201_n.jpg
+263364815_232981145628224_6180924159255877747_n.jpg
+270228912_1585027698541815_7053450000925296072_n.jpg
+273660121_262002846110457_3255140843900076076_n.jpg
+273684262_961259231164392_9142616307873388357_n.jpg
+273736973_797622881628487_6034166272725920941_n.jpg
+273757057_1090364368176215_7017453900548802999_n.jpg
+273767919_1133181097222959_7379261215974225984_n.jpg
+273773262_1131798617588484_1681769062182395795_n.jpg
+273810282_911709336169702_3494825695453694773_n (1).jpg
+273810282_911709336169702_3494825695453694773_n.jpg
+273828418_451753916680784_5135831210509306319_n.jpg
+273832560_831880108212250_7805027069009065395_n.jpg
+273882803_372880050929948_5202012947766457402_n.jpg
+273907556_493762525550077_4282783306243391808_n.jpg
+273927806_974077350186796_5342247054680862397_n.jpg
+274046405_344824970873859_6135135723333767909_n.jpg
+274060598_1209634522776532_6771103410730159874_n.jpg
+274126439_509601683861878_7244743030147433007_n (1).jpg
+274126439_509601683861878_7244743030147433007_n (2).jpg
+274126439_509601683861878_7244743030147433007_n.jpg
+274197925_1095800954548857_1090923752715340676_n.jpg
+274306814_3209646392641355_5019145665459736265_n.jpg
+274772165_901025933909508_8127390044575236202_n.jpg
+275032984_508620587462211_7209680462091317833_n.jpg
+275119708_702001030801746_8263674337924687993_n.jpg
+276325312_701498034319126_7801752273740441905_n.jpg
+277149184_957201308497487_8686223730637646555_n.jpg
+277213448_945808635933077_7323819445173956657_n.jpg
+277461352_950032428997768_5011393273401293818_n.jpg
+279749308_520151963095488_3631070922455069295_n.jpg
+4756-20220303-statement.pdf
+61b719a8301d7a0b75f02a76.pdf
+A Psychologist Reacts to Andrew Tate _360p.mp4
+ACD Assessment Cover sheet.docx
+A_Krupoves_refference_EPS_LT.pdf
+Andrew Tate Final Message_360p.mp4
+Andrew Tate x Adin Ross FULL STREAM_480p.mp4
+Andzej Employment Contract - Company.docx
+Andzej Employment Contract .docx
+Andzej Employment Contract .pdf
+Andzej Krupoves - A.Krupoves_Health check.pdf
+Andzej_Employment_Contract_.pdf
+Andzej_Krupoves_CV.pdf
+Assessment Instructions.pdf
+Assessments.docx
+BL_proxy
+BPT-2519-2431.pdf
+Best Old Country Music Of All Time  Old Country Songs  Country SongsClassic Counry Collection_360p.mp4
+Blow (2001) [1080p]
+Brackets.2.0.1.signed.dmg
+CCF20211122_00009.pdf
+CCNA 200-301 Official Cert Guide (Odom, Wendell) (z-lib.org).epub
+CCNA 200-301 Official Cert Guide (Volume 1) Official Cert Guide (Wendell Odom) (z-lib.org).epub
+CD-3J9wp.pdf
+COVID-19-vaccination
+COVID-19-vaccination.zip
+Change Your Brain Neuroscientist Dr Andrew Huberman  Rich Roll Podcast.mp3
+Code The Hidden Language of Computer Hardware and Software (Charles Petzold) (z-lib.org).epub
+DaVinci_Resolve_18.0.3_Mac.zip
+Doug Evans - The Sprout Book_ Tap into the Power of the Planet's Most Nutritious Food (, St. Martin's Publishing Group) - libgen.lc.epub
+E-ticket_DPStoLTUpdf.pdf
+E-ticket_passenger_1c6a5db061d75225351d4c95d50f5585.pdf
+E-ticket_passenger_5290e841adc604dd8e2f4796eab7b6ac.pdf
+EMPLOYEE AUTHORIZATION FOR USE OF IMAGE, VOICE, PERFORMANCE OR LIKENESS.pdf
+EMPLOYEE_AUTHORIZATION_FOR_USE_OF_IMAGE__VOICE__PERFORMANCE_OR_LIKENESS.pdf
+EditorGuidelines.vsix
+Form 956 - Company.pdf
+Form_956_-_Company_Signed.pdf
+Four ways to move past the help desk_360p.mp4
+FreshandFit_ATate.mp4
+Get the Best Python Books for Free - YT1s.One.mp3.download
+Hacksaw.Ridge.2016.720p.BRRip.x264.AAC-ETRG
+How The System Keeps YOU POOR! (Money Myths That Keep You Broke) _ Jaspreet Singh on Impact Theory (320 kbps).mp3
+How To Manifest HEALTH WEALTH  SUCCESS Into Your Life  Jairek Robbins_360p.mp4
+ICTNWK509 Assessments Tasks 1-4 with checklists v2.0 July 2020.docx
+ICTTEN611_207786.pdf
+ICVC - ANDZEJ KRUPOVES.pdf
+IHS.pdf
+IMM5950_1-OYW0XNQ.pdf
+IMM5950_1-OYW0XO3 (1).pdf
+IMM5950_1-OYW0XO3 (2).pdf
+IMM5950_1-OYW0XO3 (3).pdf
+IMM5950_1-OYW0XO3.pdf
+IMM5951_1-OYY4YZS (1).pdf
+IMM5951_1-OYY4YZS.pdf
+IMMI Grant Notification.pdf
+ITS_28_03_2022, 20_23_07.pdf
+Install Parallels Desktop.dmg
+Invoice - 0448.pdf
+Įdarbinimo_dokumentai.pdf
+Jeff Cavaliere Optimize Your Exercise Program with ScienceBased Tools  Huberman Lab Podcast 79.mp3
+King.Richard.2021.1080p.HMAX.WEBRip.1600MB.DD5.1.x264-GalaxyRG[TGx]
+LIFE IS SHORT Before You Waste The Rest Of 2022 Away WATCH THIS  Shaka Senghor_360p.mp4
+Live Not By Lies.mp4
+Master.pdf
+Meditor consent 2020 CIT 1.pdf
+Meditor_consent_2020_CIT_1.pdf
+MedlabNATAProof.pdf
+Melancholia (2011)
+Melancholia.2011.720p.BluRay.x264-LEVERAGE
+Men's Role Today & Tate Reaction w_ @The Poor Mans Podcast Reacts @Stirling Cooper & Dee-1 _ SOSCAST.mp4.crdownload
+Miroslav-Krupoves-AE17N-baigiamasis-darbas.docx
+Morbius (2022) [1080p] [WEBRip] [YTS.MX]
+NAB_Statement_X2965_29-Mar-2022.pdf
+NAB_Statement_X4756_03-Mar-2022.pdf
+Optimize & Control Your Brain Chemistry _Hubarman.mp4
+Oz Install_ref_letter.pdf
+REVERSE AGING How To Optimize Your Nutrition  Prevent CHRONIC DISEASE  Dr Lisa Mosconi_360p.mp4
+RadPdf (1).html
+RadPdf.html
+Radical Acceptance Awakening the Love That Heals Fear and Shame by Tara Brach (z-lib.org).epub
+Radical Acceptance Embracing Your Life with the Heart of a Buddha by TaraBrach, (z-lib.org).epub
+Request_Form_ANDZEJ_KRUPOVES_20220519.pdf
+Russia Vs Ukraine Or Civil War In The West_360p.mp4
+Salary Application and NPD form_Version 1.0.docx
+Screenshot_2022-09-07-10-12-51-53_400dd470d264b2a87737469c1e4cc030.jpg
+Spotlight.2015.1080p.BRRip.x264.AAC-ETRG
+Sąskaita faktūra.pdf
+TRISTAN TATE X SNEAKO.mp3
+TaxInvoiceAKA01.pdf
+TaxInvoiceAKA02.pdf
+TaxInvoiceExpert002.pdf
+TaxInvoiceExpert004.pdf
+TaxInvoiceExpert005.pdf
+TaxInvoiceExpert06.pdf
+TaxInvoiceExpert07.pdf
+TaxInvoiceExpert08.pdf
+TaxInvoiceOz061 (1).pdf
+TaxInvoiceOz061.pdf
+TaxInvoiceOz062.pdf
+TaxInvoiceOz063 (1).pdf
+TaxInvoiceOz063.pdf
+TaxInvoiceOz064.pdf
+TaxInvoiceOz065.pdf
+TaxInvoiceOz066.pdf
+TaxInvoiceOz067.pdf
+Telegram Desktop
+The BIG REASONS You Feel Lost In Life & How To FIND YOURSELF! _ Jay Shetty (320 kbps).mp3
+The Brain That Changes Itself Stories of Personal Triumph from the Frontiers of Brain Science by Norman Doidge (z-lib.org).epub
+The Good The Bad And The Ugly (1966) [1080p]
+The Memory Book The Classic Guide to Improving Your Memory at Work, at School, and at Play by Harry Lorayne, Jerry Lucas (z-lib.org).pdf
+The ONE Thing The Surprisingly Simple Truth Behind Extraordinary Results by Gary Keller, Jay Papasan (z-lib.org).epub
+The Talent Code Greatness Isnt Born. Its Grown. Heres How. by Daniel Coyle (z-lib.org).epub
+The Theory of Everything (2014) [1080p]
+The Tinder Swindler (2022) [1080p] [WEBRip] [5.1] [YTS.MX]
+The University of Sydney_PT_Cybersecurity.pdf
+The-Curonian-Loop.gpx
+The.Big.Short.2015.DVDScr.XVID.AC3.HQ.Hive-CM8
+The.Irishman.2019.720p.NF.WEBRip.1200MB.x264-GalaxyRG[TGx]
+Ticket Andzej Krupoves-BR-891010802-2.pdf
+Ticket Andzej Krupoves-BR-891010802.pdf
+TorBrowser-11.0.14-osx64_en-US.dmg
+Transactions (1).csv
+Transactions (1).pdf
+Transactions (2).pdf
+Transactions.csv
+Transactions.pdf
+WARNING_ What You Need To Know About The UPCOMING RECESSION! (How To Prepare) _ Raoul Pal (128 kbps).mp3
+WT - DJ Queen Elizabeth II - WD - Prelim (WIP) (28.06.2019.pdf
+Wolt gift card English 1.pdf
+Zack Snyders Justice League (2021) [720p] [WEBRip] [YTS.MX]
+a_cover_letter_Krupoves.pdf
+a_police_clearance_LT_to_ENG.pdf
+amendment_1325166.pdf
+andzej-krupoves (1).pdf
+andzej-krupoves (2).pdf
+andzej-krupoves (3).pdf
+andzej-krupoves (4).pdf
+andzej-krupoves (5).pdf
+andzej-krupoves (6).pdf
+andzej-krupoves (7).pdf
+andzej-krupoves.pdf
+andzej-krupoves_.pdf
+andzej.krupoves (1).pdf
+andzej.krupoves.pdf
+bachelorLTL.pdf
+cars.jpeg
+citco_data_AK - Sheet1 (1).pdf
+citco_data_AK - Sheet1.pdf
+deep house no vocals.mp3
+download (1).html
+download (2).html
+download (3).html
+download-2.html
+download.html
+flight
+how-to-embrace-change-and-find-purpose-with-the-worlds-most-decorated-winter-olympian-apolo-ohno-youtubemp3free.org.mp3
+invite.ics
+invoice
+joe Rogan Comedy Controversy Aliens UFOs Putin CIA and Freedom  Lex Fridman Podcast 300_v240P.mp4
+passportcolor.JPG
+personalDB.kdbx
+pob_28_03_2022, 20_22_24.pdf
+print_visa_eticket.pdf
+road-1659196277233-7435.jpg
+site access instructions (1).docx
+site_induction.pdf
+spotify
+tim-ferriss-on-super-learning-and-pushing-the-limits-impact-theory-youtubemp3free.org.mp3
+ubuntu-20.04.3-live-server-arm64.iso
+video-1645323066.mp4
+video-1645323084.mp4
+video-1645323502.mp4
+video-1645323503 (1).mp4
+video-1645323503.mp4
+vlc-3.0.16-intel64.dmg
+whiteCard2side.png
+www.oxfordlearnersdictionaries.com_definition_english_incessant_q=incessant.png
+yt1s.com - Consistently Good Not Occasionally Great  Nick Bare  Modern Wisdom Podcast 488_360p.mp4
+yt1s.com - Eminem  Lose Yourself HD.mp3
+yt1s.com - Remember The Name Official Video  Fort Minor.mp3
+yt1s.com - The KING of Toxic Masculinity  a Conversation with Cobra Tate in Poland_360p.mp4
+yt1s.com - The Real Story of the Tinder Swindler 20220214 2243_360p.mp4
+yt1s.com - Till I Collapse.mp3
+rock@Andzejs-MacBook-Air Downloads % mkdir mp3
+rock@Andzejs-MacBook-Air Downloads % mv *.mp3 mp3 
+rock@Andzejs-MacBook-Air Downloads % ls mp3 
+Change Your Brain Neuroscientist Dr Andrew Huberman  Rich Roll Podcast.mp3
+How The System Keeps YOU POOR! (Money Myths That Keep You Broke) _ Jaspreet Singh on Impact Theory (320 kbps).mp3
+Jeff Cavaliere Optimize Your Exercise Program with ScienceBased Tools  Huberman Lab Podcast 79.mp3
+TRISTAN TATE X SNEAKO.mp3
+The BIG REASONS You Feel Lost In Life & How To FIND YOURSELF! _ Jay Shetty (320 kbps).mp3
+WARNING_ What You Need To Know About The UPCOMING RECESSION! (How To Prepare) _ Raoul Pal (128 kbps).mp3
+deep house no vocals.mp3
+how-to-embrace-change-and-find-purpose-with-the-worlds-most-decorated-winter-olympian-apolo-ohno-youtubemp3free.org.mp3
+tim-ferriss-on-super-learning-and-pushing-the-limits-impact-theory-youtubemp3free.org.mp3
+yt1s.com - Eminem  Lose Yourself HD.mp3
+yt1s.com - Remember The Name Official Video  Fort Minor.mp3
+yt1s.com - Till I Collapse.mp3
+rock@Andzejs-MacBook-Air Downloads % cd mp3 
+rock@Andzejs-MacBook-Air mp3 % mv yt1s.com\ -\ Eminem\ \ Lose\ Yourself\ HD.mp3 Eminem\ \ Lose\ Yourself\ HD.mp3 
+rock@Andzejs-MacBook-Air mp3 % ls
+Change Your Brain Neuroscientist Dr Andrew Huberman  Rich Roll Podcast.mp3
+Eminem  Lose Yourself HD.mp3
+How The System Keeps YOU POOR! (Money Myths That Keep You Broke) _ Jaspreet Singh on Impact Theory (320 kbps).mp3
+Jeff Cavaliere Optimize Your Exercise Program with ScienceBased Tools  Huberman Lab Podcast 79.mp3
+TRISTAN TATE X SNEAKO.mp3
+The BIG REASONS You Feel Lost In Life & How To FIND YOURSELF! _ Jay Shetty (320 kbps).mp3
+WARNING_ What You Need To Know About The UPCOMING RECESSION! (How To Prepare) _ Raoul Pal (128 kbps).mp3
+deep house no vocals.mp3
+how-to-embrace-change-and-find-purpose-with-the-worlds-most-decorated-winter-olympian-apolo-ohno-youtubemp3free.org.mp3
+tim-ferriss-on-super-learning-and-pushing-the-limits-impact-theory-youtubemp3free.org.mp3
+yt1s.com - Remember The Name Official Video  Fort Minor.mp3
+yt1s.com - Till I Collapse.mp3
+rock@Andzejs-MacBook-Air mp3 % ls
+Change Your Brain Neuroscientist Dr Andrew Huberman  Rich Roll Podcast.mp3
+Eminem  Lose Yourself HD.mp3
+How The System Keeps YOU POOR! (Money Myths That Keep You Broke) _ Jaspreet Singh on Impact Theory (320 kbps).mp3
+Jeff Cavaliere Optimize Your Exercise Program with ScienceBased Tools  Huberman Lab Podcast 79.mp3
+TRISTAN TATE X SNEAKO.mp3
+The BIG REASONS You Feel Lost In Life & How To FIND YOURSELF! _ Jay Shetty (320 kbps).mp3
+WARNING_ What You Need To Know About The UPCOMING RECESSION! (How To Prepare) _ Raoul Pal (128 kbps).mp3
+deep house no vocals.mp3
+how-to-embrace-change-and-find-purpose-with-the-worlds-most-decorated-winter-olympian-apolo-ohno-youtubemp3free.org.mp3
+tim-ferriss-on-super-learning-and-pushing-the-limits-impact-theory-youtubemp3free.org.mp3
+yt1s.com - Remember The Name Official Video  Fort Minor.mp3
+yt1s.com - Till I Collapse.mp3
+rock@Andzejs-MacBook-Air mp3 % pwd
+/Users/rock/Downloads/mp3
+rock@Andzejs-MacBook-Air mp3 % ls
+Change Your Brain Neuroscientist Dr Andrew Huberman  Rich Roll Podcast.mp3
+Eminem  Lose Yourself HD.mp3
+How The System Keeps YOU POOR! (Money Myths That Keep You Broke) _ Jaspreet Singh on Impact Theory (320 kbps).mp3
+Jeff Cavaliere Optimize Your Exercise Program with ScienceBased Tools  Huberman Lab Podcast 79.mp3
+TRISTAN TATE X SNEAKO.mp3
+The BIG REASONS You Feel Lost In Life & How To FIND YOURSELF! _ Jay Shetty (320 kbps).mp3
+WARNING_ What You Need To Know About The UPCOMING RECESSION! (How To Prepare) _ Raoul Pal (128 kbps).mp3
+deep house no vocals.mp3
+how-to-embrace-change-and-find-purpose-with-the-worlds-most-decorated-winter-olympian-apolo-ohno-youtubemp3free.org.mp3
+tim-ferriss-on-super-learning-and-pushing-the-limits-impact-theory-youtubemp3free.org.mp3
+yt1s.com - Remember The Name Official Video  Fort Minor.mp3
+yt1s.com - Till I Collapse.mp3
+rock@Andzejs-MacBook-Air mp3 % cler
+zsh: command not found: cler
+rock@Andzejs-MacBook-Air mp3 % clear
+
+rock@Andzejs-MacBook-Air mp3 % ls
+Change Your Brain Neuroscientist Dr Andrew Huberman  Rich Roll Podcast.mp3
+Eminem  Lose Yourself HD.mp3
+How The System Keeps YOU POOR! (Money Myths That Keep You Broke) _ Jaspreet Singh on Impact Theory (320 kbps).mp3
+Jeff Cavaliere Optimize Your Exercise Program with ScienceBased Tools  Huberman Lab Podcast 79.mp3
+TRISTAN TATE X SNEAKO.mp3
+The BIG REASONS You Feel Lost In Life & How To FIND YOURSELF! _ Jay Shetty (320 kbps).mp3
+WARNING_ What You Need To Know About The UPCOMING RECESSION! (How To Prepare) _ Raoul Pal (128 kbps).mp3
+deep house no vocals.mp3
+how-to-embrace-change-and-find-purpose-with-the-worlds-most-decorated-winter-olympian-apolo-ohno-youtubemp3free.org.mp3
+tim-ferriss-on-super-learning-and-pushing-the-limits-impact-theory-youtubemp3free.org.mp3
+yt1s.com - Remember The Name Official Video  Fort Minor.mp3
+yt1s.com - Till I Collapse.mp3
+rock@Andzejs-MacBook-Air mp3 % mv yt1s.com\ -\ Remember\ The\ Name\ Official\ Video\ \ Fort\ Minor.mp3 The\ Name\ Official\ Video\ \ Fort\ Minor.mp3
+rock@Andzejs-MacBook-Air mp3 % mv yt1s.com\ -\ Till\ I\ Collapse.mp3 Till\ I\ Collapse.mp3
+rock@Andzejs-MacBook-Air mp3 % ls
+Change Your Brain Neuroscientist Dr Andrew Huberman  Rich Roll Podcast.mp3
+Eminem  Lose Yourself HD.mp3
+How The System Keeps YOU POOR! (Money Myths That Keep You Broke) _ Jaspreet Singh on Impact Theory (320 kbps).mp3
+Jeff Cavaliere Optimize Your Exercise Program with ScienceBased Tools  Huberman Lab Podcast 79.mp3
+TRISTAN TATE X SNEAKO.mp3
+The BIG REASONS You Feel Lost In Life & How To FIND YOURSELF! _ Jay Shetty (320 kbps).mp3
+The Name Official Video  Fort Minor.mp3
+Till I Collapse.mp3
+WARNING_ What You Need To Know About The UPCOMING RECESSION! (How To Prepare) _ Raoul Pal (128 kbps).mp3
+deep house no vocals.mp3
+how-to-embrace-change-and-find-purpose-with-the-worlds-most-decorated-winter-olympian-apolo-ohno-youtubemp3free.org.mp3
+tim-ferriss-on-super-learning-and-pushing-the-limits-impact-theory-youtubemp3free.org.mp3
+rock@Andzejs-MacBook-Air mp3 % 
+
+
+
+
+
+
+
+
+
+
+
+
