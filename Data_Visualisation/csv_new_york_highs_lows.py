@@ -4,6 +4,7 @@ import imp
 from shutil import which
 import matplotlib.pyplot as plt
 from datetime import datetime,timedelta
+
 # the data from https://www.ncdc.noaa.gov/cdo-web/
 filename='Data_Visualisation/data_csv/new_york_weather_for_21year.csv'
 
@@ -15,9 +16,10 @@ with open(filename,) as f:
     # Get dates and highs tempratures from a current file
     dates,highs,lows = [],[],[]
     for row in reader:
-        if row[5]=='': #if empty string ignore
+        if row[5]=='' or row[2]=='': #if empty string ignore
             continue
-        current_date=datetime.strptime(row[2],'%Y-%m-%d')
+
+        current_date=datetime.strptime(row[2], "%Y-%m-%d")
         high=float(row[4])
         low=float(row[5])
         dates.append(current_date)
@@ -28,6 +30,7 @@ with open(filename,) as f:
 plt.style.use("seaborn")
 fig, ax=plt.subplots()
 ax.plot(dates,highs,c='red')
+
 # adding another plot in the same figure
 ax.plot(dates,lows,c='blue')
 
