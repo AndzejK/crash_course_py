@@ -26,13 +26,15 @@ with open(filename,) as f:
         highs.append(high)
         lows.append(low)
 
-# Plot the high tempratures
+# Plot the high and low tempratures
 plt.style.use("seaborn")
 fig, ax=plt.subplots()
 ax.plot(dates,highs,c='red')
-
 # adding another plot in the same figure
 ax.plot(dates,lows,c='blue')
+
+# Shading - fill the space in between two tempratures 
+plt.fill_between(dates,highs,lows, facecolor='green',alpha=0.3)
 
 # Format plot.
 plt.title("Daily high and low tempratures for the whole 2021 year in NY",fontsize=20)
