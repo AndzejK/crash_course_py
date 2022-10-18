@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+      "generated": 1666088540000,
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+      "title": "USGS All Earthquakes, Past Hour",
+      "status": 200,
+      "api": "1.10.3",
+      "count": 3
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "mag": 2.7,
+          "place": "131 km ENE of Ouzinkie, Alaska",
+          "time": 1666085632733,
+          "updated": 1666085815215,
+          "tz": null,
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ddey33w",
+          "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ddey33w.geojson",
+          "felt": null,
+          "cdi": null,
+          "mmi": null,
+          "alert": null,
+          "status": "automatic",
+          "tsunami": 0,
+          "sig": 112,
+          "net": "ak",
+          "code": "022ddey33w",
+          "ids": ",ak022ddey33w,",
+          "sources": ",ak,",
+          "types": ",origin,phase-data,",
+          "nst": null,
+          "dmin": null,
+          "rms": 0.81,
+          "gap": null,
+          "magType": "ml",
+          "type": "earthquake",
+          "title": "M 2.7 - 131 km ENE of Ouzinkie, Alaska"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -150.4269,
+            58.3521,
+            0
+          ]
+        },
+        "id": "ak022ddey33w"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "mag": 1.39,
+          "place": "7km ESE of Valle Vista, CA",
+          "time": 1666085434320,
+          "updated": 1666086089170,
+          "tz": null,
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40362928",
+          "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40362928.geojson",
+          "felt": null,
+          "cdi": null,
+          "mmi": null,
+          "alert": null,
+          "status": "automatic",
+          "tsunami": 0,
+          "sig": 30,
+          "net": "ci",
+          "code": "40362928",
+          "ids": ",ci40362928,",
+          "sources": ",ci,",
+          "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+          "nst": 54,
+          "dmin": 0.0853,
+          "rms": 0.23,
+          "gap": 34,
+          "magType": "ml",
+          "type": "earthquake",
+          "title": "M 1.4 - 7km ESE of Valle Vista, CA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.8285,
+            33.7181667,
+            16.27
+          ]
+        },
+        "id": "ci40362928"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "mag": 2.09,
+          "place": "6 km S of Pāhala, Hawaii",
+          "time": 1666085426870,
+          "updated": 1666085757410,
+          "tz": null,
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73184227",
+          "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73184227.geojson",
+          "felt": null,
+          "cdi": null,
+          "mmi": null,
+          "alert": null,
+          "status": "automatic",
+          "tsunami": 0,
+          "sig": 67,
+          "net": "hv",
+          "code": "73184227",
+          "ids": ",hv73184227,",
+          "sources": ",hv,",
+          "types": ",origin,phase-data,",
+          "nst": 38,
+          "dmin": null,
+          "rms": 0.180000007,
+          "gap": 160,
+          "magType": "ml",
+          "type": "earthquake",
+          "title": "M 2.1 - 6 km S of Pāhala, Hawaii"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -155.485336303711,
+            19.1443328857422,
+            11.0699996948242
+          ]
+        },
+        "id": "hv73184227"
+      }
+    ],
+    "bbox": [
+      -155.48533630371,
+      19.144332885742,
+      0,
+      -116.8285,
+      58.3521,
+      16.27
+    ]
+  }
