@@ -1,5 +1,6 @@
 import json
 from tkinter.tix import Tree
+from turtle import title
 from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline
 
@@ -12,24 +13,27 @@ with open(file_name) as f:
 all_eq_dicts=all_eq_data["features"]
 
 # Extracting magnitudes from JSON
-mags,lons,lats=[],[],[]
+mags,lons,lats, hover_texts=[],[],[],[]
 for eq_dic in all_eq_dicts:
     mag=eq_dic["properties"]["mag"]
     lon=eq_dic["geometry"]["coordinates"][0]
     lat=eq_dic["geometry"]["coordinates"][1]
+    title_=eq_dic["properties"]["title"]
     mags.append(mag)
     lons.append(lon)
     lats.append(lat)
+    hover_texts.append(title_)
 
 # Map the Earthquicks and their severity
 data=[{
     "type":"scattergeo",
     "lon":lons,
     "lat":lats,
+    "text":hover_texts,
     "marker":{
         "size": [5*mag for mag in mags],
         "color":mags,
-        "colorscale":'Viridis',
+        "colorscale":'Cividis',
         "reversescale": True,
         "colorbar":{"title":'Magnitude'}
     },
