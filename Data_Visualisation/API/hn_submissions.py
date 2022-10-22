@@ -27,6 +27,7 @@ for submission_id in submission_ids[:30]:
     }
     submission_dicts.append(submission_dict)
 submission_dicts=sorted(submission_dicts,key=itemgetter('comments'),reverse=True)
+print(submission_dicts)
 
 for submission_dic in submission_dicts:
     print(f"\nTitle: {submission_dic['title']}")
